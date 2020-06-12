@@ -24,9 +24,8 @@ stages:
       inputs:
         SonarCloud: 'SonarCloudNew'
         organization: 'cicdsast'
-        scannerMode: 'Other'
-        projectKey: 'JAVAPROJ'
-        projectName: 'JAVAPROJ'
+        scannerMode: 'CLI'
+        configMode: 'file'
     - task: Docker@2
       displayName: Build an image
       inputs:
