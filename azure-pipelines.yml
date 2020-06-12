@@ -24,7 +24,7 @@ stages:
       inputs:
         SonarCloud: 'SonarCloudNew'
         organization: 'cicdsast'
-        scannerMode: 'MSBuild'
+        scannerMode: 'Other'
         projectKey: 'JAVAPROJ'
         projectName: 'JAVAPROJ'
     - task: Docker@2
